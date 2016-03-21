@@ -1,0 +1,78 @@
+/*your custom CSS here*/
+.heading{
+	text-align:center;
+		position:relative;
+		width:100%;
+		height:100%;
+		background-color: #999;
+		background-position: center;
+		height:600px;
+}
+.toppic{
+	width:100%%;
+	height:100%;
+}
+.centerimage{
+	display: block;
+	margin: 0 auto;
+}
+h1{
+	position: absolute;
+	top: 200px;
+	left:0;
+	width:100%;
+	color: grey;
+	font-size: 50px;
+}
+h6{
+	font-style:italic;
+	font-size:12px;
+}
+body{
+	background-image: url(../img/metal.jpg);
+	background-position:center;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-color: #999;
+}
+.box{
+	margin: 5px;
+	padding: 5px;
+	float:left;
+}
+a {
+  color: #1e6bb8;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+
+
+
+.button {
+    border: 2px solid #ccc;
+    background-color: #999;
+    color: #666;
+    padding: 6px 13px;
+    border-radius: 11px;
+    margin: 1em 0;
+}
+
+.button:hover {
+  background-color: #666;
+  color: #000;
+  text-decoration: none;
+}
+
+/*modal*/
+.modal {
+    max-width: 800px;
+    min-width: 300px;
+    width: auto;
+}
+
+.modal img {
+  width: 100%;
+}
